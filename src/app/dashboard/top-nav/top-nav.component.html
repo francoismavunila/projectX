@@ -1,14 +1,18 @@
-<mat-toolbar color="primary" style="background-color: #21999D;">
+<mat-toolbar color="primary" class="topNav">
    
         <img src="../../../assets/images/icons/inMEST logo 333.png" alt="logo" width="70">
 
     <span class="example-spacer"></span>
-    <mat-chip-listbox disabled  aria-label="">
+    <!-- <mat-chip-listbox disabled  aria-label="">
         <mat-chip-option  style="background-color: #21999D;border : 1px solid white;color:white" >Super Admin
         <img matChipAvatar src="../../../assets/images/keyboard_arrow_down_FILL0_wght400_GRAD0_opsz24.svg"  alt="Photo of a Shiba Inu"/>
         </mat-chip-option>
-    </mat-chip-listbox>
-
+    </mat-chip-listbox> -->
+    <select class="dropDown">
+      <option value="option1"><img src="../../../assets/images/profile.jpg" alt="">Super Admin</option>
+      <option value="option2">Profile</option>
+      <option value="option3">Logout</option>
+    </select>
     <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
         <mat-icon>notifications</mat-icon>
     </button>

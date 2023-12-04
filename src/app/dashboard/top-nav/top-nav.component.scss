@@ -1,0 +1,18 @@
+.topNav{
+    background-color: #21999D;
+    position: fixed;
+    z-index: 99;
+}
+
+.dropDown{
+    border-radius: 30px;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 5px 4px;
+}
+
+.dropDown option{
+    border: 1px solid white;
+    color: #21999D;
+    padding: 10px 10px;
+}
