@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { LeaveComponent } from './leave.component';
+import { AttendanceInnerComponent } from './attendance-inner.component';
 
-describe('LeaveComponent', () => {
-  let component: LeaveComponent;
-  let fixture: ComponentFixture<LeaveComponent>;
+describe('AttendanceInnerComponent', () => {
+  let component: AttendanceInnerComponent;
+  let fixture: ComponentFixture<AttendanceInnerComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [LeaveComponent]
+      imports: [AttendanceInnerComponent]
     })
     .compileComponents();
     
-    fixture = TestBed.createComponent(LeaveComponent);
+    fixture = TestBed.createComponent(AttendanceInnerComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
